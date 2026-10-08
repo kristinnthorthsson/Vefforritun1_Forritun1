@@ -1,0 +1,57 @@
+.header {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.body {
+    margin: 0;
+    font-family: Ariel, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.main {
+    width: min(90%, 700px);
+    margin: 60px auto;
+    padding: 24px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#input {
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#search {
+    border: 3px solid black;
+    width: 350px;
+    padding: 5px;
+}
+
+.output {
+    margin-top: 16px;
+    font-weight: bold;
+}

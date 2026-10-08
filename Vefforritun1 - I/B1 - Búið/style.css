@@ -1,0 +1,77 @@
+body {
+    color: black;
+    background-color: cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.efni1 {
+    text-align: bottom;
+    text-align: left;
+}
+
+.efni2 {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+    text-align: left;
+    margin: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 600px;
+}
+
+.efni3 {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+    text-align: left;
+    margin: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 600px;
+}
+
+.p {
+    text-align: center;
+    font-weight: bold;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button {
+    padding: 10px 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+input {
+    width: 600px;
+    padding: 10px;
+    margin: 8px 0 12px;
+}
+
+output {
+    margin-top: 16px;
+    border: 2px solid black;
+    font-weight: bold;
+}

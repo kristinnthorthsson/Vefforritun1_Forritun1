@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    border: 2px solid black;
+    width: min(90%, 700px);
+    margin: 60px auto;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#title {
+    margin-top: auto;
+}
+
+.search {
+   justify-content: center;
+   gap: 5px;
+   align-items: center;
+   display: flex;
+}
+
+#input {
+    border: 2px solid black;
+    width: 350px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+}
