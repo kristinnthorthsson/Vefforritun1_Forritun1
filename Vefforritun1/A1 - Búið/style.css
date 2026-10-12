@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 07
+    font-family: Arial, sans-serif;
+    background: White;
+    color: #222;
+}
+
+main {
+    width: min(90%, 700px);
+    margin: 60px auto;
+    padding: 24px
+    background: cyan;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+button,
+input {
+    font: inherit
+}
+
+button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 12px;
+}
+
+.output {
+    margin-top: 16px;
+    font-weight: bold;
+}
