@@ -1,4 +1,4 @@
 const title = document.getElementById("title");
 
 title.textContent = "Nýr titill";
-MessageChannel.textContent = "JavaScript breytti þessum texta.";
+const message = document.getElementById("JavaScript breytti þessum texta.");
