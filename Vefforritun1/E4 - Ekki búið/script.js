@@ -10,5 +10,5 @@ priceForm.addEventListener("submit", function (event) {
     const count = Number(countInput.value)
     const total = price * count;
 
-    message.textContent = "Heildarverð:"; {total} "kr";
+    message.textContent = `Heildarverð: ${total} kr`;
 });
