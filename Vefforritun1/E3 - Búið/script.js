@@ -1,6 +1,6 @@
 const form  = document.getElementById("ageForm");
-const ageInput = document.getElementById("ageInput")
-const output = document.getElementById("output")
+const ageInput = document.getElementById("ageInput");
+const output = document.getElementById("output");
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
