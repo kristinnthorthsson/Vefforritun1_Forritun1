@@ -15,6 +15,7 @@ def safntidni():           #Fall sem býr till safntíðni
 def rada():          #Fall sem raðar listanum
     listi.sort() 
     return listi       #Skilar listanum röðuðum niður í forritið
+
     
 #Forritið byrjar hér
 listi = []      #Tómur listi sem notandi fyllir inn í
