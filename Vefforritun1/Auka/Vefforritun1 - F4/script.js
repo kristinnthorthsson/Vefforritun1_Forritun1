@@ -9,7 +9,17 @@ for (const game of games) {
     list.appendChild(item);
 }
 
-form.addEventListener("submit"), function(event) {
+form.addEventListener("submit", function(event) {
     event.preventDefault();
-    console.log(input.value)
-};
+    
+    const game = input.value.trim();
+    if (game === "") {
+        return;
+    }
+
+    const item = document.createElement("li");
+    item.textContent = game;
+    list.appendChild(item);
+
+    input.value = "";
+});

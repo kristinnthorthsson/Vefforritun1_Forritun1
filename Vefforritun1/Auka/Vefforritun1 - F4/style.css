@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: white;
-    color: yellow;
+    color: black;
     text-align: center;
 }
 
@@ -14,8 +14,9 @@ main {
     width: min(90%, 700px);
     margin: 60px auto;
     padding: 24px;
-    background-color: black;
+    background-color: white;
     border-radius: 12px;
+    border: 2px solid black;
 }
 
 h1 {
@@ -28,4 +29,7 @@ li {
 
 ul {
     text-align: left;
+}
+div {
+    color: black;
 }
