@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: white;
     color: black;
+    text-align: center;
 }
 
 main {
@@ -43,3 +44,4 @@ input {
     margin-top: 16px;
     font-weight: bold;
 }
+
