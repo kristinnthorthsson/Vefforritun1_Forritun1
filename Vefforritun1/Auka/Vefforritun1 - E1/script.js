@@ -11,5 +11,5 @@ form.addEventListener("submit", function(event) {
     }
     const capitalizedName = 
     name.charAt(0).toLocaleUpperCase() + name.slice(1);
-    output.textContent = "Well, aren't you a nigger, Mr. " + capitalizedName + "!"
+    output.textContent = "Well, hello there, Mr. " + capitalizedName + "!"
 });

@@ -47,3 +47,15 @@ input {
 [for="priceInput"] {
     color: blue;
 }
+
+#priceInput {
+    padding: 4px;
+}
+
+#countInput {
+    padding: 4px;
+}
+
+h1 {
+    text-align: center;
+}
