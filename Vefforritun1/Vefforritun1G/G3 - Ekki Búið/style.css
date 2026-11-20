@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white
+}
+
+main {
+    width: min(90%, 700px);
+    margin: 50px, auto;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+}
+
+button {
+    padding: 10px 16px;
+    font: inherit;
+}

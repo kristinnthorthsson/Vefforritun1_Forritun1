@@ -1,0 +1,17 @@
+print (" ---- ")
+print ("1. Samlagning")
+print (" ")
+print ("2. Frádráttur")
+print (" ")
+print ("3. Margföldu")
+print (" ")
+print ("4. Deiling")
+print (" ")
+print ("5. Hætta")
+print (" ---- ")
+svar = int("Veldu: ")
+
+if svar == 1:
+    tala1 = int(input("Veldu tölu 1: "))
+    tala2 = int(input("Veldu tölu 2: "))
+    print ("Summa þessar talna er", tala1 ** tala2)
